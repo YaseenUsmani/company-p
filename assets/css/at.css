@@ -1,0 +1,311 @@
+service.style1 {
+  padding: 95px 0 79px;
+  background: url(../images/service-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.service-box.style1 {
+  display: flex;
+  background-color: #fff;
+  padding: 38px 40px 40px;
+  box-shadow: 0px 20px 40px 0px rgba(145, 139, 187, 0.05);
+  background-image: url(../images/service-box-bg.png);
+  background-repeat: no-repeat;
+  background-position: 205px -20px;
+  margin-bottom: 25px;
+}
+
+.service-box.style1:hover {
+  box-shadow: 0px 20px 40px 0px rgba(145, 139, 187, 0.09);
+}
+
+.service-box.style1 .icon {
+  margin-right: 25px;
+}
+
+.service-box.style1 .icon i {
+  position: relative;
+  display: inline-block;
+  color: var(--main-color);
+  font-style: normal;
+  font-size: 36px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.service-box.style1 .icon i::after {
+  content: '';
+  position: absolute;
+  background-image: url(../images/service-icon-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 73px;
+  height: 55px;
+  left: -15px;
+}
+
+.service-box.style1 .service-content .title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.service-box.style1 .service-content .description {
+  margin-bottom: 27px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.service-box.style1 .service-content a.read-more {
+  display: inline-block;
+  color: var(--title-color);
+  font-weight: 600;
+}
+
+.service-box.style1 .service-content a.read-more i {
+  color: var(--main-color);
+  margin-left: 10px;
+}
+
+/* Style Two */
+.service.style2 {
+  padding: 85px 0 100px;
+}
+
+.row.services {
+  margin-top: 28px;
+}
+
+.service-box.style2 {
+  position: relative;
+  background-color: #fff;
+  padding: 40px 28px 32px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.service-box.style2::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 0;
+  background: linear-gradient(270deg, rgba(221, 29, 38, 1) 0%, #A4BE13 100%);
+  top: 0;
+  right: 50%;
+  transition: 0.5s;
+}
+
+.service-box.style2:hover::before {
+  width: 100%;
+  right: 0;
+}
+
+.service-box.style2 .icon {
+  margin-bottom: 25px;
+}
+
+.service-box.style2 .icon i {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-size: 36px;
+  height: 85px;
+  width: 85px;
+  line-height: 85px;
+  text-align: center;
+  background: linear-gradient(0deg, rgba(221, 29, 38, 1) 0%, #A4BE13 100%);
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.service-box.style2:hover .icon i {
+  color: var(--main-color);
+  background: #fff;
+}
+
+.service-box.style2 .title h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.service-box.style2 .description p {
+  margin-bottom: 27px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.service-box.style2 .content {
+  position: relative;
+}
+
+.service-box.style2 .content .service-btn a {
+  display: inline-block;
+  color: var(--title-color);
+  font-weight: 600;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.service-box.style2 .content .service-btn a i {
+  color: var(--main-color);
+  margin-left: 10px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.service-box.style2:hover .title h3,
+.service-box.style2:hover .description p,
+.service-box.style2:hover .content .service-btn a,
+.service-box.style2:hover .content .service-btn a i {
+  color: #fff;
+}
+
+.service.style2 .btn-set {
+  float: right;
+}
+
+/*service_section*/
+
+.service_section {
+  position: relative;
+  padding: 95px 0 0px;
+  background: #F6F6F8;
+}
+
+.service_section .section-title.style2.left {
+  margin-bottom: 42px;
+}
+
+.service-box.style3 {
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  padding: 0 30px 25px;
+  transition: .5s;
+  box-shadow: 0px 8px 20px 0px rgba(34, 36, 41, 0.05);
+  margin-bottom: 20px;
+  z-index: 2;
+}
+
+.service-box.style3.two {
+  position: relative;
+  top: -30px;
+}
+
+.service-box.style3 .icon {
+  margin-bottom: 35px;
+}
+
+.service-box.style3 .icon i {
+  display: inline-block;
+  color: var(--main-color);
+  font-size: 46px;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  background-color: #f6f6f8;
+  text-align: center;
+  transition: .5s;
+}
+
+.service-box.style3:hover .icon i {
+  color: #fff;
+  background-color: var(--main-color);
+}
+
+.service-box.style3 .title h4 {
+  position: relative;
+  margin-bottom: 37px;
+}
+
+.service-box.style3 .title h4::before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 65px;
+  background-color: #f6f6f8;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -18px;
+}
+
+.service-box.style3 .description p {
+  margin-bottom: 12px;
+}
+
+.service_section .single_service {
+  display: inline-block;
+  position: absolute;
+  bottom: 20%;
+  background: #fff;
+  padding: 45px 0px 45px 49px;
+  width: 30%;
+  right: 16%;
+}
+
+.service_section .service_content {
+  display: inline-block;
+  padding-left: 37px;
+  border-left: 10px solid#F6F6F8;
+}
+
+.service_section .content {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.service_section .single_service .icon {
+  float: left;
+  align-items: center;
+}
+
+.service_section .single_service .title {
+  display: inline-block;
+  padding-right: 22px;
+  font-size: 20px;
+}
+
+.service_section .single_service .content .title {
+  color: #696969;
+  font-size: 16px;
+  display: inline-block;
+  margin: 0 0 4px;
+}
+
+.service_section .single_service .icon i {
+  display: inline-block;
+  color: #A4BE13;
+  font-size: 43px;
+  margin-right: 19px;
+}
+
+.service_section .single_service .content .number {
+  color: #A4BE13;
+  font-size: 20px;
+}
+
+/* service shape*/
+
+.service_section .shape {
+  display: inline-block;
+  position: absolute;
+  top: -127px;
+  right: 0;
+}
